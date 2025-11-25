@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relative{
+            position: relative;
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: white;
+        }
+        .pr{
+            position: absolute; 
+            width: 200px;
+            height: 200px;
+            background-color: rgba(25, 251, 120, 0.7);
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+            top: 50px;
+            left: 50px;
+        }
+        .dr{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(25, 21, 120, 0.7);
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Positioning</h1>
+    <div class="relative">
+        <div class="pr"></div>
+        <div class="dr"></div>
+    </div>
+</body>
+</html>
