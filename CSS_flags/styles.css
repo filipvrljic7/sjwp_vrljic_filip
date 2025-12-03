@@ -1,0 +1,69 @@
+.p {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
+.bh {
+    width: 508px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 175px;
+    left: 0px;
+    z-index: 1;
+    }
+.bv {
+    width: 60px;
+    height: 320px;
+    background-color: white;
+    position: absolute;
+    left: 120px;
+    top : 50px;
+    z-index: 1;
+}
+.ch {
+    width: 500px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+
+}
+.cv {
+    width: 50px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    left: 125px;
+    top : 68px;
+    z-index: 2;
+}
+.plava{
+    width: 500px;
+    height: 300px;
+    background-color: #00A9CE;
+    position: relative;
+    z-index: 1;
+}
+.zuta{
+    width: 500px;
+    height: 120px;
+    background-color: #FDDA25;
+    position: absolute;
+    top: 520px;
+    z-index: 2;
+}
+.crna{
+    width: 0;
+    height: 0;
+    border-left: 150px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    z-index: 3;
+}
+.t1{
+    
+}
