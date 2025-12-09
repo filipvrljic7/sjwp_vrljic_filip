@@ -64,6 +64,279 @@
     position: absolute;
     z-index: 3;
 }
-.t1{
-    
+.crv{
+    width: 180px;
+    height: 350px;
+    background-color: #CE1126;
+    position: relative;
+    left: 170px;
 }
+.zuta{
+    width: 180px;
+    height: 350px;
+    background-color: #FCD116;
+    left: 350px;
+    top: 0px;
+    position: absolute;
+}
+.zelena{
+    width: 170px;
+    height: 350px;
+    background-color: #007A5E;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.zvijezda1{
+            width: 150px;
+            height: 150px;
+            background: #FCD116;
+            position: absolute;
+            top:90px;
+            left: 180px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );
+}
+.glavni {
+    width: 500px;
+    height: 350px;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+}
+.glavni1{
+    width: 500px;
+    height: 350px;
+    background-color: red;
+    position: relative;
+    z-index: 0;
+}
+.krug1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    z-index: 1;
+}
+.krug2{
+        width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 90px;
+    top: 70px;
+    z-index: 2;
+}
+.zvezda{
+            width: 100px;
+            height: 100px;
+            background: white;
+            position: absolute;
+            top:70px;
+            left: 250px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );
+            transform: rotate(-20deg);
+            z-index: 3;
+}
+.g2{
+    width: 500px;
+    height: 350px;
+    background-color: blue;
+    position: relative;
+    z-index: 0;
+}
+.z1{
+                width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top: 20px;
+            left: 70px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );
+}
+           .z2{ width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:60px;
+            left: 120px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );
+           }
+            .z3{            width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:100px;
+            left: 170px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );
+            }
+            .z4{
+                        width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:140px;
+            left: 220px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );}
+               .z5{         width:50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:180px;
+            left:265px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );}
+               .z6{         width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:215px;
+            left: 310px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );}
+               .z7{         width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:253px;
+            left: 356px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );}
+            .z8{
+                            width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:290px;
+            left: 420px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );
+            }
+            /*
+            .z9{            width: 50px;
+            height: 50px;
+            background: white;
+            position: absolute;
+            top:90px;
+            left: 180px;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            );}
