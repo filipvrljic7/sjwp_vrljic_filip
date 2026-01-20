@@ -1,0 +1,141 @@
+.gosobna{
+    height: 300px;
+    width: 500px;
+    border: solid black 5px;
+    position: relative;
+
+}
+
+.image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.f1{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.f2{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+.f3{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 160px;
+}
+.f4{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 210px;
+}
+.f5{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 210px;
+}
+.facebook{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -8px;
+    left: -45px;
+}
+.insta{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    top: -8px;
+    left: -45px;
+}
+.glavni{
+    width: 500px;
+    height: 400px;
+    background-color: #84B9C7;
+    position: relative;
+}
+.v1{
+    width: 380px;
+    height: 40px;
+    background-color: #1A353C;
+    margin-top: 140px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: 1;
+}
+.v2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #1A353C;
+    margin-top: 150px;
+    margin-left: 59px;
+    position:absolute;
+}
+.v3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #1A353C;
+    margin-top: 150px;
+    margin-left: 290px;
+    position: absolute;
+}
+.v4{
+    height: 150px;
+    width: 40px;
+    background-color: #1A353C;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 170px;
+}
+.v5{
+    height: 150px;
+    width: 40px;
+    background-color: #1A353C;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 280px;
+}
+.v6{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #84B9C7;
+    margin-top: 177px;
+    margin-left: 92px;
+    position: absolute;
+}
+.v7{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #84B9C7;
+    margin-top: 177px;
+    margin-left: 325px;
+    position: absolute;
+}
+.v8{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    background-color: #84B9C7;
+    margin-top: 160px;
+    margin-left: 0px;
+}
