@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: dodgerblue;
+            height: 200px;
+            overflow: scroll;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center; /*pozicioniranje po horizontalnoj osi*/
+            align-items: center;/*po vertikalnoj osi*/
+            /*ako je flex-direction: column, onda se osi okrecu, justify-content je vertikalna os, a align-items je horizontalna*/
+            align-content: flex-start;/*radi sam kad je ukljucen flex-wrap postavljen na wrap*/
+        }
+        .container div{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Box</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+</body>
+</html>
