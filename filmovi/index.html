@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineVerse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">CineVerse</div>
+    <nav class="nav">
+      <button class="nav-btn active" data-category="serije">Serije</button>
+      <button class="nav-btn" data-category="filmovi">Filmovi</button>
+      <button class="nav-btn" data-category="crtici">Crtići</button>
+      <button class="nav-btn" data-category="oscar">Oscar nagrađivani</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Najbolji svijet filmova i serija</h1>
+      <p>
+        Istraži pažljivo odabrane serije, filmove, crtiće i Oscarom nagrađene naslove.
+        Klikni na bilo koji naslov i saznaj sve detalje o njemu.
+      </p>
+    </div>
+  </section>
+
+  <main class="main-container">
+    <section class="content-section">
+      <div class="section-header">
+        <h2 id="category-title">Serije</h2>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Pretraži naslov..."
+          autocomplete="off"
+        />
+      </div>
+
+      <div id="movie-grid" class="movie-grid"></div>
+    </section>
+
+    <aside class="details-panel" id="details-panel">
+      <div class="details-placeholder">
+        <h3>Odaberi naslov</h3>
+        <p>Klikni na film, seriju ili crtić da vidiš detalje.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 CineVerse | Dizajniran za VS Code pregled i jednostavno korištenje</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
