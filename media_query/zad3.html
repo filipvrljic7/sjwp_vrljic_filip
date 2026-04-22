@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zad3</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* osnovni stil (mobile first) */
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "left"
+    "right"
+    "footer";
+}
+
+header { grid-area: header; background: #f26c6c; padding: 20px; text-align:center;}
+main   { grid-area: main;   background: #ddd; padding: 40px; text-align:center;}
+.left  { grid-area: left;   background: #e6c75a; padding: 40px; text-align:center;}
+.right { grid-area: right;  background: #b7db6f; padding: 40px; text-align:center;}
+footer { grid-area: footer; background: #6fa8cc; padding: 20px; text-align:center;}
+
+/* 📲 TABLET */
+@media (min-width: 600px) {
+  .container {
+    grid-template-areas:
+      "header header"
+      "main main"
+      "left right"
+      "footer footer";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 🖥️ DESKTOP */
+@media (min-width: 992px) {
+  .container {
+    grid-template-areas:
+      "header header header"
+      "left main right"
+      "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <header>Header</header>
+  <main>Main</main>
+  <div class="left">Left</div>
+  <div class="right">Right</div>
+  <footer>Footer</footer>
+</div>
+
+</body>
+</html>

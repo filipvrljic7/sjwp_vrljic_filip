@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zad4</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* MOBILE (default) */
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "banner"
+    "extra"
+    "image";
+}
+
+header { grid-area: header; background:#0f1c33; color:white; padding:20px; text-align:center;}
+.menu  { grid-area: menu;  background:#ef3b4a; color:white; padding:20px; text-align:center;}
+.hero  { grid-area: hero;  background:#5a88b8; color:white; padding:60px; text-align:center;}
+.main  { grid-area: main;  background:#2b3b52; color:white; padding:60px; text-align:center;}
+.banner{ grid-area: banner;background:#f2c766; padding:30px; text-align:center;}
+.extra { grid-area: extra; background:#55b391; padding:30px; text-align:center;}
+.image { grid-area: image; background:#b6d0d3; padding:30px; text-align:center;}
+
+/* TABLET */
+@media (min-width: 600px) {
+  .container {
+    grid-template-areas:
+      "header header"
+      "hero hero"
+      "menu main"
+      "menu banner"
+      "menu extra"
+      "menu image";
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  .container {
+    grid-template-areas:
+      "header menu menu"
+      "hero hero hero"
+      "main main image"
+      "main main extra"
+      "banner banner banner";
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <header>HEADER</header>
+  <div class="menu">MENU</div>
+  <div class="hero">HERO</div>
+  <div class="main">MAIN</div>
+  <div class="banner">BANNER</div>
+  <div class="extra">EXTRA</div>
+  <div class="image">IMAGE</div>
+</div>
+
+</body>
+</html>
