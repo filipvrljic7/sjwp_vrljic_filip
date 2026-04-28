@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad4</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: white;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px
+    }
+    .i{
+        padding: 40px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .i1{background-color: aqua;}
+    .i2{background-color: green;}
+    .i3{background-color: blue;}
+    .i4{background-color: blueviolet;}
+    .i5{background-color: red;}
+    .i6{background-color:brown;}
+
+    @media(max-width:1024px){
+        .grid-container{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media(max-width: 768px){
+        .grid-container{
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+<div class="grid-container">
+<div class="i i1">kartica1</div>
+<div class="i i2">kartica2</div>
+<div class="i i3">kartica3</div>
+<div class="i i4">kartica4</div>
+<div class="i i5">kartica5</div>
+<div class="i i6">kartica6</div>
+</div>
+</body>
+</html>
