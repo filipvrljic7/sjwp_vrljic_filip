@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Football Boots Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('https://c0.wallpaperflare.com/preview/369/865/159/team-soccer-football-soccer-ball.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .feature-icon {
+            font-size: 50px;
+            color: #0d6efd;
+        }
+
+        .card img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .btn-custom {
+            padding: 12px 25px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-dribbble"></i> BootShop
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Početna</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Prednosti</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Kopačke</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero text-center">
+        <div class="container">
+            <h1>Najbolje Nogometne Kopačke</h1>
+            <p class="lead mt-3">
+                Otkrij profesionalne modele za maksimalnu brzinu, kontrolu i udobnost na terenu.
+            </p>
+
+            <a href="#products" class="btn btn-primary btn-lg mt-4 btn-custom">
+                Pogledaj Ponudu
+            </a>
+        </div>
+    </section>
+
+    <section class="py-5" id="features">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Zašto Odabrati Nas?</h2>
+                <p>Kvaliteta i performanse na prvom mjestu.</p>
+            </div>
+
+            <div class="row text-center g-4">
+
+                <div class="col-md-4">
+                    <div class="p-4 shadow rounded">
+                        <i class="bi bi-lightning-charge-fill feature-icon"></i>
+                        <h4 class="mt-3">Maksimalna Brzina</h4>
+                        <p>
+                            Lagane i moderne kopačke za vrhunske performanse na terenu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 shadow rounded">
+                        <i class="bi bi-shield-check feature-icon"></i>
+                        <h4 class="mt-3">Kvalitetni Materijali</h4>
+                        <p>
+                            Izrađene od premium materijala za dugotrajnost i udobnost.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 shadow rounded">
+                        <i class="bi bi-star-fill feature-icon"></i>
+                        <h4 class="mt-3">Top Brendovi</h4>
+                        <p>
+                            Nike, Adidas, Puma i drugi poznati proizvođači.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" id="products">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Popularne Kopačke</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card shadow border-0">
+                        <img src="https://hr.futbolemotion.com/imagesarticulos/321485/grandes/bota-nike-air-zoom-mercurial-superfly-fg-se-max-orange-abyss-mtlc-silver-0.webp" class="card-img-top" alt="Nike Kopačke">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Mercurial</h5>
+
+                            <p class="card-text">
+                                Profesionalne kopačke za brzinu i eksplozivnost.
+                            </p>
+
+                            <h4 class="text-primary">200€</h4>
+
+                            <button class="btn btn-dark w-100">
+                                Kupi Sada
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow border-0">
+                        <img src="https://www.prodirectsport.us/cdn/shop/files/1018912_main.jpg?v=1774355980" class="card-img-top" alt="Adidas Kopačke">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Predator</h5>
+
+                            <p class="card-text">
+                                Savršena kontrola lopte i moderan dizajn.
+                            </p>
+
+                            <h4 class="text-primary">249€</h4>
+
+                            <button class="btn btn-dark w-100">
+                                Kupi Sada
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow border-0">
+                        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/108883/01/sv01/fnd/EEA/fmt/png/FUTURE-9-ULTIMATE-FG-Football-Boots-Unisex" class="card-img-top" alt="Puma Kopačke">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Puma Future</h5>
+
+                            <p class="card-text">
+                                Udobnost i stabilnost za sve tipove igrača.
+                            </p>
+
+                            <h4 class="text-primary">199€</h4>
+
+                            <button class="btn btn-dark w-100">
+                                Kupi Sada
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container text-center">
+
+            <h4 class="mb-3">
+                <i class="bi bi-dribbble"></i> BootShop
+            </h4>
+
+            <p>
+                Najbolja online trgovina nogometnih kopački.
+            </p>
+
+            <div class="mb-3">
+                <i class="bi bi-facebook fs-3 mx-2"></i>
+                <i class="bi bi-instagram fs-3 mx-2"></i>
+                <i class="bi bi-twitter-x fs-3 mx-2"></i>
+            </div>
+
+            <p class="mb-0">
+                © 2026 BootShop. Sva prava pridržana.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
