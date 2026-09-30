@@ -73,6 +73,10 @@ input[type="radio"] {
     margin-top: -15px;
     border-radius: 0px;
 }
+.card:hover {
+    transform: scale(1.05);
+    border: white solid 2px;
+}
 </style>
 
 </head>
@@ -96,76 +100,80 @@ input[type="radio"] {
 
 <div id="filmovi-section" class="section">
 <div class="grid">
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/b/bd/ThePopesExorcistPoster.png"><p>The Pope's Exorcist (2023) </p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjExNTg3NzYwMV5BMl5BanBnXkFtZTcwMzcxMTEzMQ@@._V1_.jpg"><p>Green Street Hooligans (2005)</p></div>
-<div class="card"><img src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/344/2024/08/21164326/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK-scaled.jpg"><p>Fight Club(1999)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>The Godfather(1972)</p></div>
-<div class="card"><img src="https://lumiere-a.akamaihd.net/v1/images/image_191ecb9e.jpeg?region=0%2C0%2C1400%2C2100"><p>The Passion of the Christ (2004)</p></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg"><p>The Dark Knight (2008)</p></div>
-<div class="card"><img src="https://i.ebayimg.com/00/s/MTYwMFgxMTIy/z/njEAAOSwlOxj8lrW/$_57.JPG?set_id=880000500F"><p>The Godfather Part II (1974)</p></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"><p>The Lord of the Rings: The Fellowship of the Ring (2001)</p></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/hr/2/2a/LOTRTTTmovie.jpg"><p>The Lord of the Rings: The Two Towers (2002)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_.jpg"><p>The Lord of the Rings: The Return of the King (2003)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>GoodFellas (1990)</p></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/hr/0/0f/260_Days_poster_small.jpg"><p>260 dana (2025)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BYzkxZjg2NDQtMGVjMy00NWZkLTk0ZDEtZWE3NDYwYjAyMTg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>1917 (2019)</p></div>
-<div class="card"><img src="https://resizing.flixster.com/YrgoDA1swmWoj7JbfGNWsJ1Y4vc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzIzNjM3NmRhLWZiOWUtNGFjNC1hMTViLTM1ZWEzNWRkMzI1Zi53ZWJw"><p>Joker (2019)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_.jpg"><p>Oppenheimer (2023)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZWQ3NDgxZmUtYmZjZC00NmUwLTgyMDgtMjA1MmQ0NWVjN2E3XkEyXkFqcGc@._V1_.jpg"><p>Metastaze (2009)</p></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/hr/b/ba/ZG80_naslovnica.jpg"><p>ZG80 (2016)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Spider-Man: No Way Home (2021)</p></div>
-<div class="card"><img src="https://static.wikia.nocookie.net/horrormovies/images/8/82/American_Psycho_%282000%29.jpg/revision/latest?cb=20211211223748"><p>American Psycho (2000)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNmNlZDY2YTAtZGNmZS00ZDRmLThhZWQtMWUwNWQwMzUwMTY3XkEyXkFqcGc@._V1_.jpg"><p>Nobody (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt13375076/"><img src="https://upload.wikimedia.org/wikipedia/en/b/bd/ThePopesExorcistPoster.png"></a><p> The Pope's Exorcist (2023) </p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0385002/"><img src="https://m.media-amazon.com/images/M/MV5BMjExNTg3NzYwMV5BMl5BanBnXkFtZTcwMzcxMTEzMQ@@._V1_.jpg"></a><p>Green Street Hooligans (2005)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0137523/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_fight"><img src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/344/2024/08/21164326/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK-scaled.jpg"></a><p>Fight Club(1999)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0137523/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_fight"><img src="https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>The Godfather(1972)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0335345/"><img src="https://lumiere-a.akamaihd.net/v1/images/image_191ecb9e.jpeg?region=0%2C0%2C1400%2C2100"></a><p>The Passion of the Christ (2004)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0468569/"><img src="https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg"></a><p>The Dark Knight (2008)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0071562/"><img src="https://i.ebayimg.com/00/s/MTYwMFgxMTIy/z/njEAAOSwlOxj8lrW/$_57.JPG?set_id=880000500F"></a><p>The Godfather Part II (1974)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0120737/"><img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"></a><p>The Lord of the Rings: The Fellowship of the Ring (2001)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0167261/"><img src="https://upload.wikimedia.org/wikipedia/hr/2/2a/LOTRTTTmovie.jpg"></a><p>The Lord of the Rings: The Two Towers (2002)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0167260/"><img src="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_.jpg"></a><p>The Lord of the Rings: The Return of the King (2003)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0099685/"><img src="https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>GoodFellas (1990)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt32599834/"><img src="https://upload.wikimedia.org/wikipedia/hr/0/0f/260_Days_poster_small.jpg"></a><p>260 dana (2025)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt8579674/"><img src="https://m.media-amazon.com/images/M/MV5BYzkxZjg2NDQtMGVjMy00NWZkLTk0ZDEtZWE3NDYwYjAyMTg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>1917 (2019)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt7286456/"><img src="https://resizing.flixster.com/YrgoDA1swmWoj7JbfGNWsJ1Y4vc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzIzNjM3NmRhLWZiOWUtNGFjNC1hMTViLTM1ZWEzNWRkMzI1Zi53ZWJw"></a><p>Joker (2019)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt15398776/"><img src="https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_.jpg"></a><p>Oppenheimer (2023)</p></div>
+
+<div class="card"><a href="https://www.imdb.com/title/tt1433816/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_metastaze"><img src="https://m.media-amazon.com/images/M/MV5BZWQ3NDgxZmUtYmZjZC00NmUwLTgyMDgtMjA1MmQ0NWVjN2E3XkEyXkFqcGc@._V1_.jpg"></a><p>Metastaze (2009)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt5663990/"><img src="https://upload.wikimedia.org/wikipedia/hr/b/ba/ZG80_naslovnica.jpg"></a><p>ZG80 (2016)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt10872600/"><img src="https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Spider-Man: No Way Home (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0144084/"><img src="https://static.wikia.nocookie.net/horrormovies/images/8/82/American_Psycho_%282000%29.jpg/revision/latest?cb=20211211223748"></a><p>American Psycho (2000)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt7888964/"><img src="https://m.media-amazon.com/images/M/MV5BNmNlZDY2YTAtZGNmZS00ZDRmLThhZWQtMWUwNWQwMzUwMTY3XkEyXkFqcGc@._V1_.jpg"></a><p>Nobody (2021)</p></div>
 </div>
 </div>
 
 <div id="serije-section" class="section">
 <div class="grid">
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_.jpg"><p>Breaking Bad (2008)</p></div>
-<div class="card"><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19204904_b_v13_al.jpg"><p>Lupin (2021)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNzM5MjZmYzQtOTk2Ny00NGFiLWJiM2ItNzk1MGEwY2Y5MWM3XkEyXkFqcGc@._V1_.jpg"><p>Crno-bijeli svijet (2015)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjRmMTNiMTQtMDg1ZS00MGM1LWE1MGUtYjEzMGFjNWUzOWRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>The Sopranos (1999)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_.jpg"><p>Better Call Saul (2015)</p></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Chernobyl_2019_Miniseries.jpg"><p>Chernobyl (2019)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Game of Thrones (2011)</p></div>
-<div class="card"><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185267_b_v8_ac.jpg"><p>Dexter (2006)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>The Office (2005)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNzQwOTcwMzIwN15BMl5BanBnXkFtZTgwMjYxMTA0NjE@._V1_.jpg"><p>Narcos (2015)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Peaky Blinders (2013)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Dr. House (2004)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Squid Game (2021)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BN2Q2NmZjMzQtM2ZhYS00NWM3LTg0MDktYjNkNWYzM2MyYjI5XkEyXkFqcGc@._V1_.jpg"><p>Money Heist (2017)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BODAwN2ZiMzQtYTNjNC00OTUxLTk5N2QtYWY3OWFjMjA4OGNiXkEyXkFqcGc@._V1_.jpg"><p>Big Time Rush (2009)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMzI2ZDMyNGEtNmIwOS00NTI1LThlZDctYzYzYmE3NDNlNTJlXkEyXkFqcGc@._V1_.jpg"><p>Two and a Half Men</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_.jpg"><p>The Walking Dead (2010)</p></div>
-<div class="card"><img src="https://static.wikia.nocookie.net/warner-bros-entertainment/images/2/2b/The_Big_Bang_Theory_TV_Series.jpg/revision/latest/thumbnail/width/360/height/450?cb=20211207225643"><p>The Big Bang Theory (2007)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/I/81uKDJ5NA8L._AC_UF894,1000_QL80_.jpg"><p>Malcom in the Middle (2000)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNDgwOTQxMjUtYmNhZi00MGZlLWFiMmEtODNkNzVjNzZmOWY5XkEyXkFqcGc@._V1_.jpg"><p>The Chosen (2017)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0903747/"><img src="https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_.jpg"></a><p>Breaking Bad (2008)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt2531336/"><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19204904_b_v13_al.jpg"></a><p>Lupin (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt3674454/"><img src="https://m.media-amazon.com/images/M/MV5BNzM5MjZmYzQtOTk2Ny00NGFiLWJiM2ItNzk1MGEwY2Y5MWM3XkEyXkFqcGc@._V1_.jpg"></a><p>Crno-bijeli svijet (2015)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0141842/"><img src="https://m.media-amazon.com/images/M/MV5BMjRmMTNiMTQtMDg1ZS00MGM1LWE1MGUtYjEzMGFjNWUzOWRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>The Sopranos (1999)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt3032476/"><img src="https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_.jpg"></a><p>Better Call Saul (2015)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt7366338/"><img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Chernobyl_2019_Miniseries.jpg"></a><p>Chernobyl (2019)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0944947/"><img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Game of Thrones (2011)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0773262/"><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185267_b_v8_ac.jpg"></a><p>Dexter (2006)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0386676/"><img src="https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>The Office (2005)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt2707408/"><img src="https://m.media-amazon.com/images/M/MV5BNzQwOTcwMzIwN15BMl5BanBnXkFtZTgwMjYxMTA0NjE@._V1_.jpg"></a><p>Narcos (2015)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt2442560/"><img src="https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Peaky Blinders (2013)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0412142/"><img src="https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Dr. House (2004)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt10919420/"><img src="https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Squid Game (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt6468322/"><img src="https://static.wikia.nocookie.net/netflix/images/0/0e/MH_S5_Promotional.jpg/revision/latest?cb=20210904021400"></a><p>Money Heist (2017)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt1131746/"><img src="https://m.media-amazon.com/images/M/MV5BODAwN2ZiMzQtYTNjNC00OTUxLTk5N2QtYWY3OWFjMjA4OGNiXkEyXkFqcGc@._V1_.jpg"></a><p>Big Time Rush (2009)</p></div>
+
+<div class="card"><a href="https://www.imdb.com/title/tt0369179/"><img src="https://m.media-amazon.com/images/M/MV5BMzI2ZDMyNGEtNmIwOS00NTI1LThlZDctYzYzYmE3NDNlNTJlXkEyXkFqcGc@._V1_.jpg"></a><p>Two and a Half Men</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt1520211/"><img src="https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_.jpg"></a><p>The Walking Dead (2010)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0898266/"><img src="https://static.wikia.nocookie.net/warner-bros-entertainment/images/2/2b/The_Big_Bang_Theory_TV_Series.jpg/revision/latest/thumbnail/width/360/height/450?cb=20211207225643"></a><p>The Big Bang Theory (2007)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0212671/"><img src="https://m.media-amazon.com/images/I/81uKDJ5NA8L._AC_UF894,1000_QL80_.jpg"></a><p>Malcom in the Middle (2000)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt5622316/"><img src="https://m.media-amazon.com/images/M/MV5BNDgwOTQxMjUtYmNhZi00MGZlLWFiMmEtODNkNzVjNzZmOWY5XkEyXkFqcGc@._V1_.jpg"></a><p>The Chosen (2017)</p></div>
 </div>
 </div>
 
 <div id="dokumentarci-section" class="section">
 <div class="grid">
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNzMyMTM1MjQxNF5BMl5BanBnXkFtZTgwMjY4NTE5NjE@._V1_QL75_UX190_CR0,0,190,281_.jpg"><p>Ronaldo (2015)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNmY3OTMyNDEtYmU3Zi00NTM5LWI0MGQtZDZmMDczYmU0M2UxXkEyXkFqcGc@._V1_.jpg"><p>Neymar: The Perfect Chaos (2022)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZmNmZTU5ZTUtZTc0NS00ZWJlLWFlMzUtMDRmZDgzMDhjNmM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Beckham (2023)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTg2NzQwMzQyMF5BMl5BanBnXkFtZTgwNzkzODk2ODE@._V1_.jpg"><p>Pelé (2021)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNGNlYzNmMzEtZGQ3ZC00MGFjLWJmNjUtYTI4MDMzYjQ1MGVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Sunderland 'Til I Die (2018)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZWI3ZjQwMTctZjZjZC00ZGIxLWI3NDUtNmQ2N2VkMzc5YzlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Higuita: The Way of the Scorpion (2023)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BY2FmZjA5MTYtYjUyYi00MGUxLTg5YjctNWQxNTFlNGZmMjBkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>American Manhunt: Osama Bin Laden (2025)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMTUxN2U4MzctZjMxYy00OGUzLWE0NDctYzM4NGRhZjhiMjk5XkEyXkFqcGc@._V1_.jpg"><p>DAmerican Manhunt: The Boston Marathon Bombing (2023)</p></div>
-<div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRcDGk6Cj3CbhvwKJ3w_yVHqa3roRkQ-HNw&s"><p>American Murder: The Family Next Door (2020)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZjMzNWJlY2YtNzdkMS00Yjc2LTg4YjMtNjk4MDNhMWVjODQwXkEyXkFqcGc@._V1_.jpg"><p>Hitler and the Nazis: Evil on Trial (2024)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMmZjOTcxNjMtOThjZi00ODE5LTkxYzktNjk5ZGRjYWFhYTRiXkEyXkFqcGc@._V1_.jpg"><p>Formula 1: Drive to Survive (2019)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BYWU0ODVhNGItZDk5Zi00MGQzLThkYzItM2MwYmY5YTBlMzVmXkEyXkFqcGc@._V1_.jpg"><p>Sean Combs: The Reckoning (2025)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BODgxYTFjNjQtMjAxMS00ZmNhLWI1N2MtOGJhM2VjN2RiY2Y3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Conor McGregor: Notorious (2017)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BOTQyYmQ1N2UtYjFkNS00NzgyLTk5YTUtYjExMDdjOTA3MGU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>The Last Dance (2020)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjY1ZjE1NzAtYTNiNC00OGUyLThiNTUtYmMzY2YwODUwNTA5XkEyXkFqcGc@._V1_.jpg"><p>Tiger (2021)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjcyMjhkNmQtNzM5OS00NGE3LWE0OTktMDBiZDIzNzA1MzUxXkEyXkFqcGc@._V1_.jpg"><p>Girl in the Picture (2022)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BYjhjZjg0NzAtZjI2Ny00NmVkLWFiNzUtZjQ1YTE3Y2E1ZjhjXkEyXkFqcGc@._V1_.jpg"><p>The Trials of Gabriel Fernández (2020)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BZWNiNzhmM2ItNDYyYS00ODU2LTlkYWMtNmIwYjc1NTQwY2Q5XkEyXkFqcGc@._V1_.jpg"><p>Captains of the World (2023)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMDJkZDQxZjUtZTliYi00NDM2LWFjNTctMmJhNDkxZDNlOTRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"><p>Dražen (2024)</p></div>
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BMjZmZmU2ZDYtYmZiNS00N2Y5LTllNjgtNWI3ZGQ0NGYxNjIxXkEyXkFqcGc@._V1_.jpg"><p>Sir Alex Ferguson: Never Give In (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt5065822/"><img src="https://m.media-amazon.com/images/M/MV5BNzMyMTM1MjQxNF5BMl5BanBnXkFtZTgwMjY4NTE5NjE@._V1_QL75_UX190_CR0,0,190,281_.jpg"></a><p>Ronaldo (2015)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt16428640/"><img src="https://m.media-amazon.com/images/M/MV5BNmY3OTMyNDEtYmU3Zi00NTM5LWI0MGQtZDZmMDczYmU0M2UxXkEyXkFqcGc@._V1_.jpg"></a><p>Neymar: The Perfect Chaos (2022)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt14524712/"><img src="https://m.media-amazon.com/images/M/MV5BZmNmZTU5ZTUtZTc0NS00ZWJlLWFlMzUtMDRmZDgzMDhjNmM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Beckham (2023)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt0995868/"><img src="https://m.media-amazon.com/images/M/MV5BMTg2NzQwMzQyMF5BMl5BanBnXkFtZTgwNzkzODk2ODE@._V1_.jpg"></a><p>Pelé (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt8914684/"><img src="https://m.media-amazon.com/images/M/MV5BNGNlYzNmMzEtZGQ3ZC00MGFjLWJmNjUtYTI4MDMzYjQ1MGVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Sunderland 'Til I Die (2018)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt29424591/"><img src="https://m.media-amazon.com/images/M/MV5BZWI3ZjQwMTctZjZjZC00ZGIxLWI3NDUtNmQ2N2VkMzc5YzlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Higuita: The Way of the Scorpion (2023)</p></div>
+
+<div class="card"><a href="https://www.imdb.com/title/tt35630036/"><img src="https://m.media-amazon.com/images/M/MV5BY2FmZjA5MTYtYjUyYi00MGUxLTg5YjctNWQxNTFlNGZmMjBkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>American Manhunt: Osama Bin Laden (2025)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt27142031/"><img src="https://m.media-amazon.com/images/M/MV5BMTUxN2U4MzctZjMxYy00OGUzLWE0NDctYzM4NGRhZjhiMjk5XkEyXkFqcGc@._V1_.jpg"></a><p>American Manhunt: The Boston Marathon Bombing (2023)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt12987894/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRcDGk6Cj3CbhvwKJ3w_yVHqa3roRkQ-HNw&s"></a><p>American Murder: The Family Next Door (2020)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt32331294/"><img src="https://m.media-amazon.com/images/M/MV5BZjMzNWJlY2YtNzdkMS00Yjc2LTg4YjMtNjk4MDNhMWVjODQwXkEyXkFqcGc@._V1_.jpg"></a><p>Hitler and the Nazis: Evil on Trial (2024)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt8289930/"><img src="https://m.media-amazon.com/images/M/MV5BMmZjOTcxNjMtOThjZi00ODE5LTkxYzktNjk5ZGRjYWFhYTRiXkEyXkFqcGc@._V1_.jpg"></a><p>Formula 1: Drive to Survive (2019)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt33473000/"><img src="https://m.media-amazon.com/images/M/MV5BYWU0ODVhNGItZDk5Zi00MGQzLThkYzItM2MwYmY5YTBlMzVmXkEyXkFqcGc@._V1_.jpg"></a><p>Sean Combs: The Reckoning (2025)</p></div>
+
+<div class="card"><a href="https://www.imdb.com/title/tt4389030/"><img src="https://m.media-amazon.com/images/M/MV5BODgxYTFjNjQtMjAxMS00ZmNhLWI1N2MtOGJhM2VjN2RiY2Y3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Conor McGregor: Notorious (2017)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt8420184/"><img src="https://m.media-amazon.com/images/M/MV5BOTQyYmQ1N2UtYjFkNS00NzgyLTk5YTUtYjExMDdjOTA3MGU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>The Last Dance (2020)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt12688688/"><img src="https://m.media-amazon.com/images/M/MV5BMjY1ZjE1NzAtYTNiNC00OGUyLThiNTUtYmMzY2YwODUwNTA5XkEyXkFqcGc@._V1_.jpg"></a><p>Tiger (2021)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt21059520/"><img src="https://m.media-amazon.com/images/M/MV5BMjcyMjhkNmQtNzM5OS00NGE3LWE0OTktMDBiZDIzNzA1MzUxXkEyXkFqcGc@._V1_.jpg"></a><p>Girl in the Picture (2022)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt11822998/"><img src="https://m.media-amazon.com/images/M/MV5BYjhjZjg0NzAtZjI2Ny00NmVkLWFiNzUtZjQ1YTE3Y2E1ZjhjXkEyXkFqcGc@._V1_.jpg"></a><p>The Trials of Gabriel Fernández (2020)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt26218818/"><img src="https://m.media-amazon.com/images/M/MV5BZWNiNzhmM2ItNDYyYS00ODU2LTlkYWMtNmIwYjc1NTQwY2Q5XkEyXkFqcGc@._V1_.jpg"></a><p>Captains of the World (2023)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt29585679/"><img src="https://m.media-amazon.com/images/M/MV5BMDJkZDQxZjUtZTliYi00NDM2LWFjNTctMmJhNDkxZDNlOTRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Dražen (2024)</p></div>
+<div class="card"><a href="https://www.imdb.com/title/tt8999372/"><img src="https://m.media-amazon.com/images/M/MV5BMjZmZmU2ZDYtYmZiNS00N2Y5LTllNjgtNWI3ZGQ0NGYxNjIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a><p>Sir Alex Ferguson: Never Give In (2021)</p></div>
 </div>
 </div>
 

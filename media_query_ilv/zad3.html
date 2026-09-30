@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad3</title>
+</head>
+<body>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: white;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px
+    }
+    .i{
+        padding: 40px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .i1{background-color: magenta;}
+    .i2{background-color: sienna;}
+    .i3{background-color: lavender;}
+    .i4{background-color: blueviolet;}
+    .i5{background-color: saddlebrown;}
+    .i6{background-color:brown;}
+    .i7{background-color: black;}
+    .i8{background-color: chartreuse;}
+
+    @media(max-width:1024px){
+        .grid-container{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media(max-width: 768px){
+        .grid-container{
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+<div class="grid-container">
+<div class="i i1">slika1</div>
+<div class="i i2">slika2</div>
+<div class="i i3">slika3</div>
+<div class="i i4">slika4</div>
+<div class="i i5">slika5</div>
+<div class="i i6">slika6</div>
+<div class="i i7">slika7</div>
+<div class="i i8">slika8</div>
+</div>
+</body>
+</html>
